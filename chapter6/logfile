@@ -1,0 +1,8 @@
+1598344647: 3: Dmalloc version '5.5.2' from 'http://dmalloc.com/'
+1598344647: 3: flags = 0x4e48503, logfile 'logfile'
+1598344647: 3: interval = 100, addr = 0, seen # = 0, limit = 0
+1598344647: 3: starting time = 1598344647
+1598344647: 3: process pid = 17554
+1598344647: 3:   error details: finding address in heap
+1598344647: 3:   pointer '0x7f08a9aaff88' from 'exercise2.c:21' prev access 'unknown'
+1598344647: 3: ERROR: free: tried to free previously freed pointer (err 61)
