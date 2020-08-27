@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
       getenv("USER") // From stdlib.h
     );
     usage(errmsg);
-    usage(errmsg);
+    usage(errmsg); // Referring freed memory doesn't make dmalloc triggered.
     free(errmsg); // From stdlib.h
     exit(EXIT_FAILURE); // From stdlib.h
   }
